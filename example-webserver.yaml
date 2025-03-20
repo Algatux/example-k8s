@@ -42,3 +42,10 @@ spec:
       targetPort: 8080
       nodePort: 30080
   type: NodePort
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: example-configmap
+data:
+  test-value: "3"
