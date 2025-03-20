@@ -49,3 +49,10 @@ metadata:
   name: example-configmap
 data:
   test-value: "3"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: example-configmap-1
+data:
+  test-value: "4"
